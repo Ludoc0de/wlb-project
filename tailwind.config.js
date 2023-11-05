@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      display: ["Satisfy"],
+      satisfy: ["Satisfy"],
+      raleway: ["Raleway"],
     },
   },
   plugins: [require("daisyui")],
