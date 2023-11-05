@@ -1,12 +1,10 @@
 export default function Main() {
   return (
     <div
-      className="hero flex justify-start py-80 md:py-40 ml-auto pl-4"
-      style={
-        {
-          // backgroundImage: "url(/wlb.jpeg)",
-        }
-      }
+      className="hero min-h-screen flex py-80 md:py-40 pl-8"
+      style={{
+        backgroundImage: "url(/wlb13.jpeg)",
+      }}
     >
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-md">
