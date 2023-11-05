@@ -3,7 +3,7 @@ export default function Main() {
     <div
       className="hero min-h-screen flex py-80 md:py-40 pl-8"
       style={{
-        backgroundImage: "url(/wlb13.jpeg)",
+        backgroundImage: "url(/wlb131.jpeg)",
       }}
     >
       <div className="hero-content text-left text-neutral-content">
