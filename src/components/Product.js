@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 export default function Product() {
   return (
     <section
@@ -14,7 +12,8 @@ export default function Product() {
           <p className="mb-10 text-3xl font-satisfy font-bold">
             Women luxury beauty
           </p>
-          <form action="/subscription/create-checkout-session" method="POST">
+          {/* <form action="/create-checkout-session" method="POST"> */}
+          <form action="/api/checkout" method="POST">
             <button
               type="submit"
               className="btn btn-outline btn-warning py-4 px-8 font-satisfy"
